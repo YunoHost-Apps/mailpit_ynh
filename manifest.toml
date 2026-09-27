@@ -7,7 +7,7 @@ name = "Mailpit"
 description.en = "Modern SMTP testing server with web UI to inspect captured emails"
 description.fr = "Serveur SMTP de test moderne avec interface web pour inspecter les emails"
 
-version = "1.31.1~ynh1"
+version = "1.31.3~ynh1"
 
 maintainers = ["patou"]
 
@@ -50,20 +50,20 @@ ram.runtime = "50M"
     in_subdir = false
 
         [resources.sources.main.amd64]
-        url = "https://github.com/axllent/mailpit/releases/download/v1.31.1/mailpit-linux-amd64.tar.gz"
-        sha256 = "87d2652abd7c17dc99029147ff62ac671afdf7fd76630f7faf5b14125211c709"
+        url = "https://github.com/axllent/mailpit/releases/download/v1.31.3/mailpit-linux-amd64.tar.gz"
+        sha256 = "e98b9a8d9622417a6988b736f7d3246e94bad4fed48ad3c604e60d72569f8cc7"
 
         [resources.sources.main.i386]
-        url = "https://github.com/axllent/mailpit/releases/download/v1.31.1/mailpit-linux-386.tar.gz"
-        sha256 = "483a48b32df9e81aaaef25c3af5bf4d7225a4259d95fb866bc68025c2838c019"
+        url = "https://github.com/axllent/mailpit/releases/download/v1.31.3/mailpit-linux-386.tar.gz"
+        sha256 = "06508b9241834db611435c98221c422816209bed7ab4e0e3fc6993b73cbec6c5"
 
         [resources.sources.main.armhf]
-        url = "https://github.com/axllent/mailpit/releases/download/v1.31.1/mailpit-linux-arm.tar.gz"
-        sha256 = "b94583eeee7f47e6257f4d55d823c11d097d2c23e7e1a2dbab3e01cb36c82913"
+        url = "https://github.com/axllent/mailpit/releases/download/v1.31.3/mailpit-linux-arm.tar.gz"
+        sha256 = "6eb321be8a2a46cacafebfe98fd82c1bdf600e3a321f6fbb012aaef4b0e74a13"
 
         [resources.sources.main.arm64]
-        url = "https://github.com/axllent/mailpit/releases/download/v1.31.1/mailpit-linux-arm64.tar.gz"
-        sha256 = "be6a1f9dcf0ac0d7157ee777eac2b5351352b367bcae3c0a0f4854da60546884"
+        url = "https://github.com/axllent/mailpit/releases/download/v1.31.3/mailpit-linux-arm64.tar.gz"
+        sha256 = "4dc59d428dd94fb9840326ecdff4f49f3f795b3616657fed592436b1a240bb2e"
 
         [resources.sources.main.autoupdate]
         strategy = "latest_github_release"
